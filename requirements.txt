@@ -1,12 +1,20 @@
+# ── Core backend ─────────────────────────────────────────────────────────────
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
 pydantic==2.8.2
+
+# ── Feature engineering ───────────────────────────────────────────────────────
+tldextract==5.1.2
+beautifulsoup4==4.12.3
+
+# ── ML / Training ─────────────────────────────────────────────────────────────
 pandas==2.2.2
 numpy==2.0.1
 scikit-learn==1.5.1
 joblib==1.4.2
-beautifulsoup4==4.12.3
-tldextract==5.1.2
 python-dateutil==2.9.0.post0
+
+# ── Dashboard ─────────────────────────────────────────────────────────────────
 streamlit==1.37.1
 altair==5.3.0
+requests==2.32.3
